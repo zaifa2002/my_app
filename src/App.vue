@@ -3,18 +3,21 @@
     <img alt="Vue logo" src="./assets/logo.png">
      <button>Explore More</button>
 
-     
+
     <HomeComponent />
+    <HomeAbout />
   </div>
 </template>
 
 <script>
-import HomeComponent from './components/HomeComponent.vue'
+import HomeComponent from '@/components/HomeComponent.vue'
+import HomeAbout from '@/components/home/HomeAbout.vue';
 
 export default {
   name: 'App',
   components: { 
     HomeComponent, 
+    HomeAbout
     
   }
 }
